@@ -102,6 +102,9 @@ async function getCoupon(){
             })
             .catch(function (error) {
                 // console.log(error);
+                fs.appendFileSync(`${__dirname}/fail_log.txt`,`\n${error}`,function () {
+                    // console.log('追加内容完成');
+                });
             });
         axios = null;
     }
