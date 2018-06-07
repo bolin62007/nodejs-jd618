@@ -1,10 +1,6 @@
 module.exports = {
-    interval:350,//服务器请求时间间隔
+    interval:250,//服务器请求时间间隔
     coupons:[
-        {
-            time:85200000,
-            url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=c283b481ebcd20e885516638ee115b38&actId=004"
-        },
         {
             time:1800000,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=c283b481ebcd20e885516638ee115b38&actId=004"
