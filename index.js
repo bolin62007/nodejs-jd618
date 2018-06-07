@@ -23,19 +23,29 @@ function formateDate(date) {
     let year = dateObj.getFullYear();
     let month = dateObj.getMonth()+1;
     let day = dateObj.getDate();
-    if(month<10) month = "0"+month;
-    if(day<10) day = "0"+day;
     let hours = dateObj.getHours();
     let mins = dateObj.getMinutes();
     let secs = dateObj.getSeconds();
     let msecs = dateObj.getMilliseconds();
-    if(hours<10) hours = "0"+hours;
-    if(mins<10) mins = "0"+mins;
-    if(secs<10) secs = "0"+secs;
+    if(month<10) {
+        month = "0"+month;
+    }
+    if(day<10) {
+        day = "0"+day;
+    }
+    if(hours<10){
+        hours = "0"+hours;
+    }
+    if(mins<10){
+        mins = "0"+mins;
+    }
+    if(secs<10){
+        secs ="0"+secs;
+    }
     if(msecs<10) {
-        secs = "00"+msecs;
+        msecs = "00"+msecs;
     }else if(msecs<100&&msecs>=10){
-        secs = "0"+msecs;
+        msecs = "0"+msecs;
     }
     return year+month+day+hours+mins+secs+msecs;
 }
