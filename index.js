@@ -86,7 +86,7 @@ async function getCoupon(){
         });
         await axios.get(url)
             .then(function (response) {
-                fs.appendFileSync(`${__dirname}/log.txt`,`\n${nowTime}:${phone}:${response.data.isSuccess}`,function () {
+                fs.appendFileSync(`${__dirname}/log.txt`,`\n${nowTime}:${phone}:${response.data.isSuccess},${response.data.responseCode}`,function () {
                     // console.log('追加内容完成');
                 });
             })
