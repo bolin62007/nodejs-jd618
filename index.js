@@ -16,17 +16,17 @@ let url,
     couponTime,
     req;
 
-
+let dateObj,year,month,day,hours,mins,secs,msecs;
 
 function formateDate(date) {
-    let dateObj = new Date(+date);
-    let year = dateObj.getFullYear();
-    let month = dateObj.getMonth()+1;
-    let day = dateObj.getDate();
-    let hours = dateObj.getHours();
-    let mins = dateObj.getMinutes();
-    let secs = dateObj.getSeconds();
-    let msecs = dateObj.getMilliseconds();
+     dateObj = new Date(+date);
+     year = dateObj.getFullYear();
+     month = dateObj.getMonth()+1;
+     day = dateObj.getDate();
+     hours = dateObj.getHours();
+     mins = dateObj.getMinutes();
+     secs = dateObj.getSeconds();
+     msecs = dateObj.getMilliseconds();
     if(month<10) {
         month = "0"+month;
     }
@@ -69,9 +69,9 @@ t1 = setInterval(function(){
             nowTime = formateDate(JSON.parse(chunk).time);
             nowTime =+(nowTime.substr(8));
             for(let i =0,len= config.coupons.length;i<len;i++){
-                couponTime = coupons[i].time;
-                startTime = couponTime;//开始时间
-                endTime = couponTime + 1000;
+                couponTime = coupons[i];
+                startTime = couponTime.startTime;//开始时间
+                endTime = couponTime.endTime;//结束时间
                 if( nowTime <= endTime && nowTime >= startTime ){
                     url = coupons[i].url;
                     getCoupon();
@@ -95,7 +95,7 @@ async function getCoupon(){
         });
         await axios.get(url)
             .then(function (response) {
-                fs.appendFileSync(`${__dirname}/log.txt`,`\n${nowTime}:${phone}:${response.data.isSuccess},${response.data.responseCode}`,function () {
+                fs.appendFileSync(`${__dirname}/log.txt`,`\n${nowTime}:${phone}:${response.data}`,function () {
                     // console.log('追加内容完成');
                 });
             })

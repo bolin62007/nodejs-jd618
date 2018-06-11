@@ -1,135 +1,165 @@
 module.exports = {
-    interval:250,//服务器请求时间间隔
+    interval:100,//服务器请求时间间隔
     coupons:[
         {
-            time:1759500,
+            startTime:1759650,
+            endTime:1800650,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=c283b481ebcd20e885516638ee115b38&actId=004"
         },
         {
-            time:61759500,
+            startTime:61759650,
+            endTime:61800650,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=c283b481ebcd20e885516638ee115b38&actId=004"
         },
         {
-            time:81759500,
+            startTime:81759650,
+            endTime:81800650,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=c283b481ebcd20e885516638ee115b38&actId=004"
         },
         {
-            time:101759500,
+            startTime:101759650,
+            endTime:101800650,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=c283b481ebcd20e885516638ee115b38&actId=004"
         },
         {
-            time:121759500,
+            startTime:121759650,
+            endTime:121800650,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=c283b481ebcd20e885516638ee115b38&actId=004"
         },
         {
-            time:141759500,
+            startTime:141759650,
+            endTime:141800650,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=c283b481ebcd20e885516638ee115b38&actId=004"
         },
         {
-            time:161759500,
+            startTime:161759650,
+            endTime:161800650,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=c283b481ebcd20e885516638ee115b38&actId=004"
         },
         {
-            time:181759500,
+            startTime:181759650,
+            endTime:181800650,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=c283b481ebcd20e885516638ee115b38&actId=004"
         },
         {
-            time:201759500,
+            startTime:201759650,
+            endTime:201800650,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=c283b481ebcd20e885516638ee115b38&actId=004"
         },
         {
-            time:221759500,
+            startTime:221759650,
+            endTime:221800650,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=c283b481ebcd20e885516638ee115b38&actId=004"
         },
         {
-            time:235959500,
+            startTime:235959650,
+            endTime:235959999,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=63ab133e755d0bb909bbddba64e0ca22&actId=004"
         },
         {
-            time:55959200,
+            startTime:55959650,
+            endTime:60000650,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=63ab133e755d0bb909bbddba64e0ca22&actId=004"
         },
         {
-            time:75959200,
+            startTime:75959650,
+            endTime:80000650,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=63ab133e755d0bb909bbddba64e0ca22&actId=004"
         },
         {
-            time:95959200,
+            startTime:95959650,
+            endTime:100000650,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=63ab133e755d0bb909bbddba64e0ca22&actId=004"
         },
         {
-            time:115959200,
+            startTime:115959650,
+            endTime:120000650,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=63ab133e755d0bb909bbddba64e0ca22&actId=004"
         },
         {
-            time:135959200,
+            startTime:135959650,
+            endTime:140000650,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=63ab133e755d0bb909bbddba64e0ca22&actId=004"
         },
         {
-            time:155959200,
+            startTime:155959650,
+            endTime:160000650,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=63ab133e755d0bb909bbddba64e0ca22&actId=004"
         },
         {
-            time:175959200,
+            startTime:175959650,
+            endTime:180000650,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=63ab133e755d0bb909bbddba64e0ca22&actId=004"
         },
         {
-            time:195959200,
+            startTime:195959650,
+            endTime:203400650,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=63ab133e755d0bb909bbddba64e0ca22&actId=004"
         },
         {
-            time:215959200,
+            startTime:215959650,
+            endTime:220000650,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=63ab133e755d0bb909bbddba64e0ca22&actId=004"
         },
         {
-            time:52959200,
+            startTime:52959650,
+            endTime:63000650,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=457b39d66855fc53316e6a35a1a68f48&actId=004"
         },
         {
-            time:72959200,
+            startTime:72959650,
+            endTime:73000650,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=457b29d66855fc53316e6a35a1a68f48&actId=004"
         },
         {
-            time:92959200,
+            startTime:92959650,
+            endTime:93000650,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=457b29d66855fc53316e6a35a1a68f48&actId=004"
         },
         {
-            time:112959200,
+            startTime:112959650,
+            endTime:113000650,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=457b29d66855fc53316e6a35a1a68f48&actId=004"
         },
         {
-            time:132959200,
+            startTime:132959650,
+            endTime:133000650,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=457b29d66855fc53316e6a35a1a68f48&actId=004"
         },
         {
-            time:152959200,
+            startTime:152959650,
+            endTime:153000650,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=457b29d66855fc53316e6a35a1a68f48&actId=004"
         },
         {
-            time:172959200,
+            startTime:172959650,
+            endTime:173000650,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=457b29d66855fc53316e6a35a1a68f48&actId=004"
         },
         {
-            time:192959200,
+            startTime:192959650,
+            endTime:193000650,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=457b29d66855fc53316e6a35a1a68f48&actId=004"
         },
         {
-            time:212959200,
+            startTime:212959650,
+            endTime:213000650,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=457b29d66855fc53316e6a35a1a68f48&actId=004"
         },
         {
-            time:232959200,
+            startTime:232959650,
+            endTime:233000650,
             url:"http://opencredit.jd.com/act/get/coupon?couponBusinessId=457b39d66855fc53316e6a35a1a68f48&actId=004"
         }
     ],
     user : [
         {
             phone:"13533112357",
-            ck: "TrackerID=zRSB7NWLemowJOyZJ8mn8Z4VdkE2R2NoDgUVwUL_xJBiShHip58UEXb7ZY0PzhqddJb4yrCRqutDvZtqTHnTWVgC5OL8NvLSIRONsQ56IPUc5dNp7Ol7CMdhK17rUZnXpuX5ghuTN7SxZA02rcrOLw; pt_key=AAFbAicGADBuOSBzA2nmQCkuNpydgZfwR7mGEonGYkJSM_n6vKswShuoYi4nkyuBhh_HV8ssTvs; pt_pin=262722725-416591; visitkey=61489059734901354; shshshfpa=fd0c14bb-c70b-cc85-a6f0-196c32de0e97-1527928163; webp=1; sc_width=2560; PCSYCityID=19; user-key=7e5528b1-8c21-4ec4-b047-0b7dc8b8bf90; mobilev=html5; retina=0; cid=3; __wga=1528388351730.1528388351730.1528260454357.1527927401342.1.11; PPRD_P=LOGID.1527927401561.929353264-UUID.1527928164977867431633; intlIpLbsCountryIp=120.230.117.137; intlIpLbsCountrySite=jd; mt_xid=V2_52007VwMWUVtQUVMfThxUA2EKFVRYWlJdHUspXldlBUVSWApOU09NGkAAYFYTTg1fAAkDHB0JB28AF1ANXQcKL0oYXAx7AhVOXFFDWh5CGl0OYgAiUG1bYl4cTxlZAlcDFlM%3D; ipLocation=%u5e7f%u4e1c; ipLoc-djd=19-1672-19827-51428.137857042; TrackID=1kt9FnF5xkuR1MqygpFfyQv_0JJbckydz8CVwwrtWABFQ6P2V2EmU2a3JP1qxE_fs_PGzw5FpRQPvR4SbWFV3Y8ctN7KTIXKnHO0L5V4k2DM; pinId=KlonPn9VOn3A_RiN_EBlB7V9-x-f3wj7; pin=262722725-416591; unick=krapnik; _tp=dOCUqZN66Yoi%2FKp6l2Qq%2BoPEkPbvPxXWHMkjLVGNQxc%3D; _pst=262722725-416591; cn=3; unpl=V2_ZzNtbRUAQBFzXEFdfB9eAGIGFlxLBxYVd1hEVXMQW1FmUxNbclRCFXwUR1NnGFQUZgIZXUZcRhFFCEdkexhdBGACEFhAXnMldDhFVEsZXTVnBxFbSlRKFXINTlJ9EFsDYgESWkBVcyVyOHaC05WLqffXtuqW%2bfwldQtAUnwcWARnCiJccldBFXUPT1V8HVQ1LG0TEEJTQBN9C09UfBxUA2EKFVtHVUMSdwp2VUsa; __jdv=57808826|kong|t_1000603438_|tuiguang|ff257e68673444508ad13a30986e0a07|1528474547097; mba_muid=1527928164977867431633; wlfstk_smdl=py4g1oa9noj0jtndnqfwwq3kb31n0d6q; 3AB9D23F7A4B3C9B=2NPOYL3K6J3RCDMMLCR27SLUCKQ67PZ3EDYX6C4GUWFEQSWVVKTJHPSKIN2XJ4T2IDKGNQLMGFJ6XGNGKIKCTXLIBE; _jrda=48; __jdu=1527928164977867431633; shshshfp=3bc05680e9cf26164371d5896daf1dfb; shshshfpb=06886aa63f665033a993736e745394cb7bdcda5d5d4fc30d15af3a64c5; shshshsID=02b68cdd2031cc45ec96514555eeecf9_5_1528534204800; _jrdb=1528534205462; __jda=161982446.1527928164977867431633.1527928165.1528474547.1528533314.30; __jdb=161982446.5.1527928164977867431633|30.1528533314; __jdc=161982446",
+            ck: "TrackerID=zRSB7NWLemowJOyZJ8mn8Z4VdkE2R2NoDgUVwUL_xJBiShHip58UEXb7ZY0PzhqddJb4yrCRqutDvZtqTHnTWVgC5OL8NvLSIRONsQ56IPUc5dNp7Ol7CMdhK18rUZnXpuX5ghuTN7SxZA02rcrOLw; pt_key=AAFbAicGADBuOSBzA2nmQCkuNpydgZfwR7mGEonGYkJSM_n6vKswShuoYi4nkyuBhh_HV8ssTvs; pt_pin=262722725-416591; visitkey=61489059734901354; shshshfpa=fd0c14bb-c70b-cc85-a6f0-196c32de0e97-1527928163; webp=1; sc_width=2560; PCSYCityID=19; user-key=7e5528b1-8c21-4ec4-b047-0b7dc8b8bf90; mobilev=html5; __wga=1528388351730.1528388351730.1528260454357.1527927401342.1.11; intlIpLbsCountryIp=120.230.117.137; intlIpLbsCountrySite=jd; mt_xid=V2_52007VwMWUVtQUVMfThxUA2EKFVRYWlJdHUspXldlBUVSWApOU09NGkAAYFYTTg1fAAkDHB0JB28AF1ANXQcKL0oYXAx7AhVOXFFDWh5CGl0OYgAiUG1bYl4cTxlZAlcDFlM%3D; ipLocation=%u5e7f%u4e1c; ipLoc-djd=19-1672-19827-51428.137857042; unpl=V2_ZzNtbRZSQBR3AENVKxteUWIBG1xLVkUccQhGVngRWARiAxNZclRCFXwUR1NnGV0UZgMZXkZcQxdFCEJkeBhdDGUHF15DUXMlfQAoV0saXDVnAhJtQlNAE30LT1R8HFQDYQoVW0dVQxJ3CnZkex9sA2IKGl9CUnNOIGZBXHMQXFBnVkcIEAAUJXQ4R2R6KRdrZk4SWUFRSxZ8CEFRcx9aDGAFF19CUEEXRQl2Vw%3d%3d; retina=0; cid=3; __jdv=122270672|kong|t_2008354207_|unionjingxiangjie|e4203940a33e43808078511329504105|1528565115726; mba_muid=1527928164977867431633; sid=532b6aa39eb78ce6a438c457d3c5998c; wlfstk_smdl=7vxnwmdr20vjfw704ncwobbiti0v5rpc; TrackID=1X3kL1EqklQSp5FVurIipAEpINncA4o0J6JZCoxCxR_TO5WyHMYxauahwF6ImxQBdYHiOR5CoFYortAPvoIpSU4JI27iBZ_1MG6SXwCEf5ZU; pinId=KlonPn9VOn3A_RiN_EBlB7V9-x-f3wj7; pin=262722725-416591; unick=krapnik; thor=6A08BA6F7700E556C55FFD6CC25C14BE6AE0B67BB7DE803943B30588AF200DF5409A3997E5D4DC24B28BE0FF2DEDA74E799F4BDC59144F1C80EA7CC4D41C7FF2B53C2EFB7CF6922C891F912DFAB502347C487631859E9E1172C3286B5928B6034055544959FF5FFABC65CDE49D15D3212D547A512F1DCCFC8CE2FBE403D333A00A8005A0D9F52128ED0D2C851154030216CC9A5CA321E2FCFA38D77DDCF5A669; _tp=dOCUqZN66Yoi%2FKp6l2Qq%2BoPEkPbvPxXWHMkjLVGNQxc%3D; _pst=262722725-416591; ceshi3.com=201; cn=3; 3AB9D23F7A4B3C9B=2NPOYL3K6J3RCDMMLCR27SLUCKQ67PZ3EDYX6C4GUWFEQSWVVKTJHPSKIN2XJ4T2IDKGNQLMGFJ6XGNGKIKCTXLIBE; _jrda=51; shshshfp=9e87c2e96abb5405f697b236f4c73881; shshshfpb=06886aa63f665033a993736e745394cb7bdcda5d5d4fc30d15af3a64c5; shshshsID=db46d60ab8f5278f303465e843f35ed5_6_1528717791183; _jrdb=1528717791223; __jda=161982446.1527928164977867431633.1527928165.1528710588.1528717770.36; __jdb=161982446.3.1527928164977867431633|36.1528717770; __jdc=161982446; __jdu=1527928164977867431633",
         },
         {
             phone:"15876526047",
-            ck: "pinId=uAAdX3Oj9ldtw_plXTm9RA; mba_muid=1520472811415102317866; shshshfpa=d092ac0d-c682-6a80-1585-8370ec0e0f7d-1521423519; webp=1; visitkey=8369157614625612; shshshfpb=2734c71eed3794e4a87b004a828672be45a634273f655086fe1f3a6661; user-key=ffdf28a6-7be2-4694-9244-dc86af244319; pin=ssssssilver; unick=ssssssilver; _tp=UxY5kWcLRyFrKHvJIi0kLQ%3D%3D; _pst=ssssssilver; ipLocation=%u5e7f%u4e1c; ipLoc-djd=19-1601-3634-0.345754292; cn=0; retina=1; PPRD_P=UUID.1520472811415102317866; __jdu=1520472811415102317866; 3AB9D23F7A4B3C9B=7YVZ5I7F5T44O52YZUP7BGQE5DRGD3NJWZF3KEYNMEQTQN4LLNA7VS6EIJVRSN364W6UJOXRGK624R76JRZQADHKII; intlIpLbsCountryIp=120.230.117.166; intlIpLbsCountrySite=jd; cid=3; __wga=1528331670475.1528331670475.1528329795083.1521509196394.1.10; __jdv=57808826%7Ckong%7Ct_1000454989_%7Cunionjingxiangjie%7Cb14ce491ef804358afcd23b17e9f8580%7C1528331670480; TrackID=1lADtcie0ppJft7d45iHLdwQqy8RT3DffgFIc4R2RMPFhrtY82dp7rZmokGvDrlW5WGvldY-zqG9ROKvIXWSGjHwni4kpxkPr9aOfwGFCYHs; mba_sid=15285342604979350028146699158.1; TrackerID=cmTxLOd4IvE5WAuzca5y05f-tCfWzKaMWiWlTUSCe-Eqm1GtjEdcALLKCpnRUa7jewzX9H3k3K6OwMFsWQhGT86tM8B2ja81DnRpdEMmiwNujS-BYe-Km3inIBf6I9Zn; pt_key=AAFbG5UEADAjCxA5-214yaSnAeVILQRt8b9XMYMEOsh535FK5-JasJSUDCiyCzbBf47ukbImF4s; pt_pin=ssssssilver; pt_token=t36z8aiw; pwdt_id=ssssssilver; shshshfp=7c5f6428d22274e9953ef87f33ee3e0f; shshshsID=4eb31105b2a271bd07ccf05f6cce1c77_3_1528534278698; _jrda=32; _jrdb=1528534279147; __jda=161982446.1520472811415102317866.1520472811.1528472412.1528534260.64; __jdb=161982446.2.1520472811415102317866|64.1528534260; __jdc=161982446",
+            ck: "pinId=uAAdX3Oj9ldtw_plXTm9RA; mba_muid=1520472811415102317866; shshshfpa=d092ac0d-c682-6a80-1585-8370ec0e0f7d-1521423519; webp=1; visitkey=8369157614625612; shshshfpb=2734c71eed3794e4a87b004a828672be45a634273f655086fe1f3a6661; user-key=ffdf28a6-7be2-4694-9244-dc86af244319; pin=ssssssilver; unick=ssssssilver; _tp=UxY5kWcLRyFrKHvJIi0kLQ%3D%3D; _pst=ssssssilver; ipLocation=%u5e7f%u4e1c; ipLoc-djd=19-1601-3634-0.345754292; cn=0; retina=1; __jdu=1520472811415102317866; 3AB9D23F7A4B3C9B=7YVZ5I7F5T44O52YZUP7BGQE5DRGD3NJWZF3KEYNMEQTQN4LLNA7VS6EIJVRSN364W6UJOXRGK624R76JRZQADHKII; intlIpLbsCountryIp=120.230.117.166; intlIpLbsCountrySite=jd; cid=3; __wga=1528331670475.1528331670475.1528329795083.1521509196394.1.10; __jdv=57808826%7Ckong%7Ct_1000454989_%7Cunionjingxiangjie%7Cb14ce491ef804358afcd23b17e9f8580%7C1528331670480; TrackID=1lADtcie0ppJft7d45iHLdwQqy8RT3DffgFIc4R2RMPFhrtY82dp7rZmokGvDrlW5WGvldY-zqG9ROKvIXWSGjHwni4kpxkPr9aOfwGFCYHs; TrackerID=cmTxLOd4IvE5WAuzca5y05f-tCfWzKaMWiWlTUSCe-Eqm1GtjEdcALLKCpnRUa7jewzX9H3k3K6OwMFsWQhGT86tM8B2ja81DnRpdEMmiwNujS-BYe-Km3inIBf6I9Zn; pt_key=AAFbG5UEADAjCxA5-214yaSnAeVILQRt8b9XMYMEOsh535FK5-JasJSUDCiyCzbBf47ukbImF4s; pt_pin=ssssssilver; pt_token=t36z8aiw; pwdt_id=ssssssilver; shshshfp=5361f48dfd05815ac702f619167e562f; shshshsID=99d8a1e57cf9b41ea01d4062280ba7dd_2_1528717884446; _jrda=35; _jrdb=1528717885150; __jda=161982446.1520472811415102317866.1520472811.1528605057.1528717885.67; __jdb=161982446.1.1520472811415102317866|67.1528717885; __jdc=161982446",
         }
     ]
 }
