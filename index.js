@@ -68,11 +68,10 @@ t1 = setInterval(function(){
             getCnt++;
             nowTime = formateDate(JSON.parse(chunk).time);
             nowTime =+(nowTime.substr(8));
-            fs.appendFileSync(`${__dirname}/time_log.txt`,`\n${getCnt}:${nowTime}`,function (){});
             for(let i =0,len= config.coupons.length;i<len;i++){
                 couponTime = coupons[i].time;
-                startTime = couponTime - 600;//开始时间
-                endTime = couponTime + 100;
+                startTime = couponTime;//开始时间
+                endTime = couponTime + 1000;
                 if( nowTime <= endTime && nowTime >= startTime ){
                     url = coupons[i].url;
                     getCoupon();
